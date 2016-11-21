@@ -1,5 +1,5 @@
-# The Sophia Foundation Static
-The Sophia Foundation Static site - temporary page while Wordpress site is being developed
+# The Elimu Foundation Static
+The Elimu Foundation Static site - temporary page while Wordpress site is being developed
 
 # Team
 
