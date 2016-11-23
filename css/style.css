@@ -90,9 +90,7 @@ input[type=submit] {
   height: 100%; }
 
 .text-section {
-  /*max-width: 40em;*/
-  /*margin: 0 auto;*/
-  padding: 2em 5em;
+  padding: 3% 5%;
 }
 
 .section-heading {
@@ -165,7 +163,7 @@ border: none;
 }
 
 .modal .content {
-width: 400px;
+width: 40%;
 position: relative;
 margin: 10% auto;
 background: #4b91e6;
@@ -192,4 +190,25 @@ color: #FFFFFF;
 
 .center {
   text-align: center;
+}
+
+@media all and (max-width: 500px) {
+  .footer-details {
+    flex-direction: column;
+  }
+
+  .modal .content {
+    margin: 0;
+    height: 100%;
+    width: auto;
+  }
+
+  input[type=submit] {
+    margin-top: 2%;
+    width: 65%;
+  }
+
+  input[type=email]{
+    width: 60%;
+  }
 }
