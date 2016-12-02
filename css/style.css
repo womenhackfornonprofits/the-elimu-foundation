@@ -54,6 +54,11 @@ input[type=submit] {
   border: none;
 }
 
+.header img {
+  width: auto;
+  height: 30px;
+}
+
 .hero {
   background: linear-gradient(rgba(62, 61, 61, 0.45), rgba(43, 42, 42, 0.45)), url('../img/hero-background.jpeg');
   background-size: cover;
